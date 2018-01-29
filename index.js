@@ -7,17 +7,9 @@ import Header from './src/components/header';
 
 const App = () => {
   return (
-    <Header />
+    <Header headerText={'Albums'} />
   );
 };
-// Linter preference:
-
-// const App = () => (
-//     <Text>Some Text</Text>
-//   );
-
-
-
 
 
 // Render it to the device
